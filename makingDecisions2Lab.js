@@ -46,8 +46,14 @@ let evensArr = []
 */
 
 //Code Here
-
-
+console.log(`${nums} is what is present in the array`)
+for(let i = 0; i < nums.length; i++){
+  if(nums[i] % 2 === 0){
+    evensArr.push(nums[i])
+    console.log(`Number was added to evens array, ${evensArr}`)
+  }
+}
+console.log(`The even numbers are ${evensArr}`)
 
 ////////// PROBLEM 5 //////////
 
